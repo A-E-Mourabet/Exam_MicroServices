@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.AEM</groupId>
-    <artifactId>AgentService</artifactId>
+    <artifactId>service_registry</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>AgentService</name>
-    <description>AgentService</description>
+    <name>service_registry</name>
+    <description>service_registry</description>
     <url/>
     <licenses>
         <license/>
@@ -31,6 +31,7 @@
         <spring-cloud.version>2024.0.0</spring-cloud.version>
     </properties>
     <dependencies>
+
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -82,15 +83,13 @@
             <version>3.4.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <version>4.0.1</version>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <version>4.1.0</version>
         </dependency>
-
     </dependencies>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -102,7 +101,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
     <build>
         <plugins>

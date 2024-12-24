@@ -4,41 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10a8effa-8bc4-4fdc-bd81-34df03441187" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/src/main/java/com/aem/agentservice/AgentServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/src/test/java/com/aem/agentservice/AgentServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/src/main/java/com/aem/clientservice/ClientServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientService/src/test/java/com/aem/clientservice/ClientServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AEM/Main.java" afterDir="false" />
+    <list default="true" id="10a8effa-8bc4-4fdc-bd81-34df03441187" name="Changes" comment="working on the testing project for microservices">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/com/aem/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/src/test/java/com/aem/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgentService/src/main/java/com/aem/agentservice/controllers/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryService/src/test/java/com/aem/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/Clients/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/Dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/Services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/java/com/aem/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/Services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/test/java/com/aem/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/src/main/java/com/aem/service_registry/ServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_registry/src/test/java/com/aem/service_registry/ServiceRegistryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AgentService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentService/src/main/java/com/aem/agentservice/AgentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AgentService/src/main/java/com/aem/agentservice/AgentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AgentService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/src/main/java/com/aem/clientservice/ClientServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientService/src/test/java/com/aem/clientservice/ClientServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -60,32 +124,76 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AgentServiceApplication.executor": "Run",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.ClientServiceApplication.executor": "Run",
+    "Spring Boot.InventoryServiceApplication.executor": "Run",
+    "Spring Boot.OrderServiceApplication.executor": "Run",
+    "Spring Boot.ProductServiceApplication.executor": "Run",
+    "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "20",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/msi/IdeaProjects/ServiceContainer/OrderService/src/main/java/com/aem/orderservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\msi\IdeaProjects\ServiceContainer\OrderService\src\main\java\com\aem\orderservice" />
+      <recent name="C:\Users\msi\IdeaProjects\ServiceContainer\service_registry\src\main\resources" />
+      <recent name="C:\Users\msi\IdeaProjects\ServiceContainer\ClientService\src\main\java\com\aem\clientservice" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="AgentServiceApplication" />
+              <option value="ClientServiceApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ClientServiceApplication">
     <configuration name="AgentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="AgentService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aem.agentservice.AgentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="API-Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aem.apigateway.ApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +206,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="InventoryService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aem.inventoryservice.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="OrderService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aem.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ProductService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aem.productservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service_registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aem.service_registry.ServiceRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceRegistryApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.ProductServiceApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.InventoryServiceApplication" />
+      <item itemvalue="Spring Boot.AgentServiceApplication" />
+      <item itemvalue="Spring Boot.ClientServiceApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -115,8 +260,18 @@
       <option name="presentableId" value="Default" />
       <updated>1734980953529</updated>
       <workItem from="1734980954613" duration="1567000" />
-      <workItem from="1734982528308" duration="117000" />
+      <workItem from="1734982528308" duration="606000" />
+      <workItem from="1734983846184" duration="17088000" />
     </task>
+    <task id="LOCAL-00001" summary="working on the testing project for microservices">
+      <option name="closed" value="true" />
+      <created>1734982778198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734982778198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,5 +290,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="working on the testing project for microservices" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on the testing project for microservices" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
