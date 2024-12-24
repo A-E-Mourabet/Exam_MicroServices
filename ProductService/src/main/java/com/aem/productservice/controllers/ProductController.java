@@ -1,5 +1,6 @@
 package com.aem.productservice.controllers;
 
+import com.aem.productservice.Services.KafkaProducer;
 import com.aem.productservice.Services.ProductService;
 import com.aem.productservice.models.Product;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,4 +30,10 @@ public class ProductController {
         return productService.addProduct(product);
     }
 
+    @GetMapping("/topic")
+    public String topicMessage(){
+        KafkaProducer producer = new KafkaProducer();
+        producer.sendMessage("test message");
+        return "tested";
+    }
 }

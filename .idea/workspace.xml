@@ -4,86 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10a8effa-8bc4-4fdc-bd81-34df03441187" name="Changes" comment="working on the testing project for microservices">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/com/aem/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/src/test/java/com/aem/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgentService/src/main/java/com/aem/agentservice/controllers/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/java/com/aem/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InventoryService/src/test/java/com/aem/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/Clients/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/Dto/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/Services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService/src/test/java/com/aem/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/Services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/src/test/java/com/aem/productservice/ProductServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/src/main/java/com/aem/service_registry/ServiceRegistryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_registry/src/test/java/com/aem/service_registry/ServiceRegistryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="10a8effa-8bc4-4fdc-bd81-34df03441187" name="Changes" comment="First push of the night">
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/aem/orderservice/Services/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/Services/KafkaProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AgentService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentService/src/main/java/com/aem/agentservice/AgentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AgentService/src/main/java/com/aem/agentservice/AgentServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AgentService/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/src/main/java/com/aem/clientservice/ClientServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/src/test/java/com/aem/clientservice/ClientServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/aem/productservice/controllers/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,40 +47,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AgentServiceApplication.executor": "Run",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.ClientServiceApplication.executor": "Run",
-    "Spring Boot.InventoryServiceApplication.executor": "Run",
-    "Spring Boot.OrderServiceApplication.executor": "Run",
-    "Spring Boot.ProductServiceApplication.executor": "Run",
-    "Spring Boot.ServiceRegistryApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "20",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/msi/IdeaProjects/ServiceContainer/OrderService/src/main/java/com/aem/orderservice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AgentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ClientServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.InventoryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServiceRegistryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/msi/IdeaProjects/ServiceContainer/OrderService/src/main/java/com/aem/orderservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\msi\IdeaProjects\ServiceContainer\OrderService\src\main\java\com\aem\orderservice" />
@@ -261,7 +187,8 @@
       <updated>1734980953529</updated>
       <workItem from="1734980954613" duration="1567000" />
       <workItem from="1734982528308" duration="606000" />
-      <workItem from="1734983846184" duration="17088000" />
+      <workItem from="1734983846184" duration="17669000" />
+      <workItem from="1735033347269" duration="3036000" />
     </task>
     <task id="LOCAL-00001" summary="working on the testing project for microservices">
       <option name="closed" value="true" />
@@ -271,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734982778198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First push of the night">
+      <option name="closed" value="true" />
+      <created>1735008731059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735008731059</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +226,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="working on the testing project for microservices" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on the testing project for microservices" />
+    <MESSAGE value="First push of the night" />
+    <option name="LAST_COMMIT_MESSAGE" value="First push of the night" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
